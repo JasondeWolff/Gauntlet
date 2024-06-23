@@ -1,0 +1,17 @@
+{
+    "material": {
+        "shader": {
+            "storage": 1,
+            "filename": "[assets]/Shaders/SimpleLit.shader"
+        },
+        "textures": [
+            {
+                "key": "Albedo",
+                "value": {
+                    "storage": 1,
+                    "filename": "[assets]/Models/Characters/Textures/barbarian_texture.texture"
+                }
+            }
+        ]
+    }
+}

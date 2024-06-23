@@ -1,0 +1,17 @@
+{
+    "material": {
+        "shader": {
+            "storage": 1,
+            "filename": "[assets]/Shaders/Spell.shader"
+        },
+        "textures": [
+            {
+                "key": "Albedo",
+                "value": {
+                    "storage": 1,
+                    "filename": "[assets]/Models/Skeletons/Textures/skeleton_texture.texture"
+                }
+            }
+        ]
+    }
+}

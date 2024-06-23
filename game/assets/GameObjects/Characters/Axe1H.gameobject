@@ -1,0 +1,70 @@
+{
+    "gameobject": {
+        "name": "Axe1H",
+        "className": "Item",
+        "entity": {
+            "id": 0
+        },
+        "components": [
+            {
+                "polymorphic_id": 2147483649,
+                "polymorphic_name": "Transform",
+                "ptr_wrapper": {
+                    "id": 2147483649,
+                    "data": {
+                        "position": {
+                            "x": -4.734805583953857,
+                            "y": 3.324162244796753,
+                            "z": 6.013716697692871
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483650,
+                "polymorphic_name": "MeshFilter",
+                "ptr_wrapper": {
+                    "id": 2147483650,
+                    "data": {
+                        "meshes": [
+                            {
+                                "storage": 1,
+                                "filename": "[assets]/Models/Characters/Objects/axe_1handed_axe_1handed_0.mesh"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483651,
+                "polymorphic_name": "MeshRenderer",
+                "ptr_wrapper": {
+                    "id": 2147483651,
+                    "data": {
+                        "materials": [
+                            {
+                                "storage": 1,
+                                "filename": "[assets]/Models/Characters/Objects/axe_1handed_0.material"
+                            }
+                        ],
+                        "shadowCastingMode": 1,
+                        "receiveShadows": true,
+                        "contributeGI": true,
+                        "receiveGI": true
+                    }
+                }
+            }
+        ]
+    }
+}

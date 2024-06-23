@@ -1,0 +1,78 @@
+{
+    "gameobject": {
+        "name": "CandleTriple",
+        "className": "StaticModel",
+        "entity": {
+            "id": 0
+        },
+        "components": [
+            {
+                "polymorphic_id": 2147483649,
+                "polymorphic_name": "Transform",
+                "ptr_wrapper": {
+                    "id": 2147483649,
+                    "data": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                        },
+                        "scale": {
+                            "x": 0.009999999776482582,
+                            "y": 0.009999999776482582,
+                            "z": 0.009999999776482582
+                        }
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483650,
+                "polymorphic_name": "MeshFilter",
+                "ptr_wrapper": {
+                    "id": 2147483650,
+                    "data": {
+                        "meshes": [
+                            {
+                                "storage": 1,
+                                "filename": "[assets]/Models/Environment/candle_triple_candle_triple_0.mesh"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483651,
+                "polymorphic_name": "MeshRenderer",
+                "ptr_wrapper": {
+                    "id": 2147483651,
+                    "data": {
+                        "materials": [
+                            {
+                                "storage": 1,
+                                "filename": "[assets]/Models/Environment/banner_blue_0.material"
+                            }
+                        ],
+                        "shadowCastingMode": 1,
+                        "receiveShadows": true,
+                        "contributeGI": true,
+                        "receiveGI": true
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483652,
+                "polymorphic_name": "Collider",
+                "ptr_wrapper": {
+                    "id": 2147483652,
+                    "data": {}
+                }
+            }
+        ]
+    }
+}

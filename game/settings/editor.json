@@ -1,0 +1,89 @@
+{
+    "value0": {
+        "value0": [
+            {
+                "key": "Toolbar Show GameObjects",
+                "value": true
+            },
+            {
+                "key": "Toolbar Show Scene",
+                "value": true
+            },
+            {
+                "key": "Toolbar Show Inspector",
+                "value": true
+            },
+            {
+                "key": "Toolbar Show Profiler",
+                "value": true
+            },
+            {
+                "key": "Toolbar Show Assets",
+                "value": true
+            },
+            {
+                "key": "Toolbar Show Console",
+                "value": true
+            },
+            {
+                "key": "Toolbar Show Data",
+                "value": true
+            },
+            {
+                "key": "Toolbar Theme",
+                "value": false
+            }
+        ],
+        "value1": [],
+        "value2": [],
+        "value3": [
+            {
+                "key": "Scene View Cam Rot Y",
+                "value": -18751.0
+            },
+            {
+                "key": "Scene View Cam Pos X",
+                "value": 4.075279235839844
+            },
+            {
+                "key": "Scene View Cam Rot X",
+                "value": 50.0
+            },
+            {
+                "key": "Scene View Cam Pos Y",
+                "value": 13.455004692077637
+            },
+            {
+                "key": "Scene View Cam Pos Z",
+                "value": 1.5804818868637086
+            },
+            {
+                "key": "Scene View Cam Rot Z",
+                "value": 0.0
+            },
+            {
+                "key": "Scene View Cam Look Speed",
+                "value": 0.5
+            },
+            {
+                "key": "Scene View Cam Move Speed",
+                "value": 25.0
+            },
+            {
+                "key": "Scene View Cam Input Dead Zone",
+                "value": 0.10000000149011612
+            },
+            {
+                "key": "Toolbar UI Scale",
+                "value": 1.0
+            }
+        ],
+        "value4": [],
+        "value5": [
+            {
+                "key": "Current Scene",
+                "value": "[assets]/main.scene"
+            }
+        ]
+    }
+}

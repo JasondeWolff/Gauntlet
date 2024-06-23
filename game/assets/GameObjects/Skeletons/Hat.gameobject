@@ -1,0 +1,70 @@
+{
+    "gameobject": {
+        "name": "Hat",
+        "className": "Item",
+        "entity": {
+            "id": 0
+        },
+        "components": [
+            {
+                "polymorphic_id": 2147483649,
+                "polymorphic_name": "Transform",
+                "ptr_wrapper": {
+                    "id": 2147483649,
+                    "data": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 16.64508056640625,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483650,
+                "polymorphic_name": "MeshFilter",
+                "ptr_wrapper": {
+                    "id": 2147483650,
+                    "data": {
+                        "meshes": [
+                            {
+                                "storage": 1,
+                                "filename": "[assets]/Models/Skeletons/Skeleton_Mage/Skeleton_Mage_Skeleton_Mage_Hat_0.mesh"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483651,
+                "polymorphic_name": "MeshRenderer",
+                "ptr_wrapper": {
+                    "id": 2147483651,
+                    "data": {
+                        "materials": [
+                            {
+                                "storage": 1,
+                                "filename": "[assets]/Models/Skeletons/Skeleton_Mage/Skeleton_Mage_1.material"
+                            }
+                        ],
+                        "shadowCastingMode": 1,
+                        "receiveShadows": true,
+                        "contributeGI": true,
+                        "receiveGI": true
+                    }
+                }
+            }
+        ]
+    }
+}

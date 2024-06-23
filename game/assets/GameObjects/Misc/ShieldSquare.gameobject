@@ -1,0 +1,109 @@
+{
+    "gameobject": {
+        "name": "ShieldSquare",
+        "className": "DynamicObject",
+        "entity": {
+            "id": 0
+        },
+        "components": [
+            {
+                "polymorphic_id": 2147483649,
+                "polymorphic_name": "Transform",
+                "ptr_wrapper": {
+                    "id": 2147483649,
+                    "data": {
+                        "position": {
+                            "x": 4.451251029968262,
+                            "y": 2.284672260284424,
+                            "z": 7.129475116729736
+                        },
+                        "rotation": {
+                            "x": -0.5166719555854797,
+                            "y": -0.4827563762664795,
+                            "z": -0.48274025321006777,
+                            "w": 0.5166800022125244
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483650,
+                "polymorphic_name": "MeshFilter",
+                "ptr_wrapper": {
+                    "id": 2147483650,
+                    "data": {
+                        "meshes": [
+                            {
+                                "storage": 1,
+                                "filename": "[assets]/Models/Characters/Objects/shield_square_shield_square_0.mesh"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483651,
+                "polymorphic_name": "MeshRenderer",
+                "ptr_wrapper": {
+                    "id": 2147483651,
+                    "data": {
+                        "materials": [
+                            {
+                                "storage": 1,
+                                "filename": "[assets]/Models/Characters/Objects/shield_square_0.material"
+                            }
+                        ],
+                        "shadowCastingMode": 1,
+                        "receiveShadows": true,
+                        "contributeGI": true,
+                        "receiveGI": true
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483652,
+                "polymorphic_name": "Collider",
+                "ptr_wrapper": {
+                    "id": 2147483652,
+                    "data": {
+                        "shape": {
+                            "value0": 1
+                        },
+                        "center": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 0.4000000059604645,
+                            "y": 0.6000000238418579,
+                            "z": 0.10000000149011612
+                        },
+                        "radius": 1.0,
+                        "height": 1.0,
+                        "axis": {
+                            "value0": 1
+                        },
+                        "isConcave": false,
+                        "mesh": {
+                            "storage": 0
+                        }
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483653,
+                "polymorphic_name": "RigidBody",
+                "ptr_wrapper": {
+                    "id": 2147483653,
+                    "data": {}
+                }
+            }
+        ]
+    }
+}

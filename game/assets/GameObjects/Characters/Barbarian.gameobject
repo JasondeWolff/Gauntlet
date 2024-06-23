@@ -1,0 +1,145 @@
+{
+    "gameobject": {
+        "name": "Barbarian",
+        "className": "Player",
+        "entity": {
+            "id": 0
+        },
+        "components": [
+            {
+                "polymorphic_id": 2147483649,
+                "polymorphic_name": "Transform",
+                "ptr_wrapper": {
+                    "id": 2147483649,
+                    "data": {
+                        "position": {
+                            "x": 3.5949416160583498,
+                            "y": 1.0,
+                            "z": 5.5570197105407719
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483650,
+                "polymorphic_name": "MeshFilter",
+                "ptr_wrapper": {
+                    "id": 2147483650,
+                    "data": {
+                        "meshes": [
+                            {
+                                "storage": 1,
+                                "filename": "[assets]/Models/Characters/Barbarian/Barbarian_Barbarian_Head_3.mesh"
+                            },
+                            {
+                                "storage": 1,
+                                "filename": "[assets]/Models/Characters/Barbarian/Barbarian_Barbarian_Body_2.mesh"
+                            },
+                            {
+                                "storage": 1,
+                                "filename": "[assets]/Models/Characters/Barbarian/Barbarian_Barbarian_ArmLeft_0.mesh"
+                            },
+                            {
+                                "storage": 1,
+                                "filename": "[assets]/Models/Characters/Barbarian/Barbarian_Barbarian_ArmRight_1.mesh"
+                            },
+                            {
+                                "storage": 1,
+                                "filename": "[assets]/Models/Characters/Barbarian/Barbarian_Barbarian_LegLeft_4.mesh"
+                            },
+                            {
+                                "storage": 1,
+                                "filename": "[assets]/Models/Characters/Barbarian/Barbarian_Barbarian_LegRight_5.mesh"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483651,
+                "polymorphic_name": "MeshRenderer",
+                "ptr_wrapper": {
+                    "id": 2147483651,
+                    "data": {
+                        "materials": [
+                            {
+                                "storage": 1,
+                                "filename": "[assets]/Models/Characters/Barbarian/Barbarian_0.material"
+                            }
+                        ],
+                        "shadowCastingMode": 1,
+                        "receiveShadows": true,
+                        "contributeGI": true,
+                        "receiveGI": true
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483652,
+                "polymorphic_name": "Animator",
+                "ptr_wrapper": {
+                    "id": 2147483652,
+                    "data": {
+                        "skeleton": {
+                            "storage": 1,
+                            "filename": "[assets]/Models/Characters/Barbarian/Barbarian_0.skeleton"
+                        },
+                        "animations": [
+                            {
+                                "storage": 1,
+                                "filename": "[assets]/Models/Characters/Barbarian/Barbarian_Idle_1.animation"
+                            },
+                            {
+                                "storage": 1,
+                                "filename": "[assets]/Models/Characters/Barbarian/Barbarian_2H_Melee_Idle_34.animation"
+                            },
+                            {
+                                "storage": 1,
+                                "filename": "[assets]/Models/Characters/Barbarian/Barbarian_Running_A_6.animation"
+                            },
+                            {
+                                "storage": 1,
+                                "filename": "[assets]/Models/Characters/Barbarian/Barbarian_Running_Strafe_Left_9.animation"
+                            },
+                            {
+                                "storage": 1,
+                                "filename": "[assets]/Models/Characters/Barbarian/Barbarian_Running_Strafe_Right_8.animation"
+                            },
+                            {
+                                "storage": 1,
+                                "filename": "[assets]/Models/Characters/Barbarian/Barbarian_Walking_Backwards_5.animation"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "polymorphic_id": 2147483653,
+                "polymorphic_name": "CharacterController",
+                "ptr_wrapper": {
+                    "id": 2147483653,
+                    "data": {}
+                }
+            },
+            {
+                "polymorphic_id": 2147483654,
+                "polymorphic_name": "Attributes",
+                "ptr_wrapper": {
+                    "id": 2147483654,
+                    "data": {}
+                }
+            }
+        ]
+    }
+}

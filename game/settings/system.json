@@ -1,0 +1,29 @@
+{
+    "value0": {
+        "value0": [
+            {
+                "key": "Fullscreen",
+                "value": false
+            }
+        ],
+        "value1": [
+            {
+                "key": "Width",
+                "value": 800
+            },
+            {
+                "key": "Height",
+                "value": 600
+            }
+        ],
+        "value2": [],
+        "value3": [],
+        "value4": [],
+        "value5": [
+            {
+                "key": "Title",
+                "value": "Guantlet"
+            }
+        ]
+    }
+}
