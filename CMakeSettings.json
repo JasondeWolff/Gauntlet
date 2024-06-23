@@ -9,8 +9,7 @@
       "installRoot": "${projectDir}\\out\\install\\${name}",
       "cmakeCommandArgs": "",
       "buildCommandArgs": "",
-      "ctestCommandArgs": "",
-      "variables": []
+      "ctestCommandArgs": ""
     },
     {
       "name": "Win64-Game-Release-MSVC",
@@ -21,8 +20,7 @@
       "cmakeCommandArgs": "",
       "buildCommandArgs": "",
       "ctestCommandArgs": "",
-      "inheritEnvironments": [ "msvc_x64_x64" ],
-      "variables": []
+      "inheritEnvironments": [ "msvc_x64_x64" ]
     },
     {
       "name": "Win64-Editor-Debug-MSVC",
@@ -36,7 +34,7 @@
       "inheritEnvironments": [ "msvc_x64_x64" ],
       "variables": [
         {
-          "name": "ENGINE_BUILD_EDITOR",
+          "name": "BX_BUILD_EDITOR",
           "value": "True",
           "type": "BOOL"
         }
@@ -54,7 +52,7 @@
       "inheritEnvironments": [ "msvc_x64_x64" ],
       "variables": [
         {
-          "name": "ENGINE_BUILD_EDITOR",
+          "name": "BX_BUILD_EDITOR",
           "value": "True",
           "type": "BOOL"
         }
