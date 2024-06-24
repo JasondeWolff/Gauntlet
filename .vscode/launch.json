@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug app",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Gauntlet",
+            "args": ["-debug"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Enable backtrace on crash",
+                    "text": "handle SIGSEGV stop"
+                }
+            ],
+            "preLaunchTask": "build",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "logging": {
+                "exceptions": true,
+                "moduleLoad": false,
+                "programOutput": true,
+                "trace": false,
+                "traceResponse": false,
+                "engineLogging": false
+            },
+            "visualizerFile": "${workspaceFolder}/.vscode/gdb-visualizers/custom-visualizer.xml"
+        }
+    ]
+}

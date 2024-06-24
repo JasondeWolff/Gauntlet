@@ -12,6 +12,4 @@ _deps
 
 .vs/
 out/
-
-.vscode/
 build/
