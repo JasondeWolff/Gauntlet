@@ -47,7 +47,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
-          submodules: true # Clone submodules
+          submodules: recursive # Clone submodules
           fetch-depth: 0 # Ensure full history for submodules
 
     - name: Set reusable strings
