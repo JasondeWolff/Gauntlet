@@ -1,5 +1,14 @@
 {
     "files.associations": {
-        "system_error": "cpp"
+        "system_error": "cpp",
+        "chrono": "cpp",
+        "typeindex": "cpp",
+        "typeinfo": "cpp",
+        "hash_map": "cpp",
+        "hash_set": "cpp",
+        "bitset": "cpp",
+        "algorithm": "cpp",
+        "format": "cpp",
+        "iosfwd": "cpp"
     }
 }
