@@ -29,7 +29,6 @@ jobs:
         #c_compiler: [gcc, clang, cl]
         cpp_compiler: [cl]
         c_compiler: [cl]
-        compiler_version: [2019, 2022]  # Add different versions to test if needed
         #include:
         #  - os: windows-latest
         #    c_compiler: cl
