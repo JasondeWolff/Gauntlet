@@ -61,6 +61,36 @@ jobs:
       if: matrix.os == 'ubuntu-latest'
       run: sudo apt-get update && sudo apt-get install -y cmake build-essential libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev libgl1-mesa-dev libasound2-dev
 
+    # There is a bug with MSVC 19.40.33811.0 so we revert to use MSVC 14.37.32822
+    - name: Set up MSBuild (Windows only)
+      if: matrix.os == 'windows-latest'
+      uses: microsoft/setup-msbuild@v1
+      with:
+        vs-version: '2022'
+
+    - name: Install vswhere (Windows only)
+      if: matrix.os == 'windows-latest'
+      run: choco install vswhere
+
+    - name: Find and Use Specific MSVC Version (Windows only)
+      if: matrix.os == 'windows-latest'
+      id: vswhere
+      run: |
+        $vswherePath = "C:/Program Files (x86)/Microsoft Visual Studio/Installer/vswhere.exe"
+        $msvcVersion = "14.37.32822"
+        $vsInstallPath = & $vswherePath -latest -products * -requires Microsoft.Component.MSBuild -find "VC/Tools/MSVC/$msvcVersion/bin/Hostx64/x64/cl.exe"
+        if (!$vsInstallPath) {
+          Write-Error "The specified MSVC version ($msvcVersion) was not found."
+        }
+        $vsInstallPath = $vsInstallPath -replace "/bin/Hostx64/x64/cl.exe", ""
+        echo "VS_INSTALL_PATH=$vsInstallPath" >> $env:GITHUB_ENV
+
+    - name: Configure MSVC Environment (Windows only)
+      if: matrix.os == 'windows-latest'
+      run: |
+        $vcvarsPath = "${{ env.VS_INSTALL_PATH }}/Auxiliary/Build/vcvars64.bat"
+        & cmd /c call $vcvarsPath
+
     - name: Configure CMake
       # Configure CMake in a 'build' subdirectory. `CMAKE_BUILD_TYPE` is only required if you are using a single-configuration generator such as make.
       # See https://cmake.org/cmake/help/latest/variable/CMAKE_BUILD_TYPE.html?highlight=cmake_build_type
