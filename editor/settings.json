@@ -14,11 +14,11 @@
                 "value": true
             },
             {
-                "key": "Toolbar Show Profiler",
+                "key": "Toolbar Show Assets",
                 "value": true
             },
             {
-                "key": "Toolbar Show Assets",
+                "key": "Toolbar Show Profiler",
                 "value": true
             },
             {
@@ -38,24 +38,24 @@
         "value2": [],
         "value3": [
             {
-                "key": "Scene View Cam Rot Y",
-                "value": -18731.0
-            },
-            {
                 "key": "Scene View Cam Pos X",
-                "value": 5.911830425262451
+                "value": 15.968964576721192
             },
             {
-                "key": "Scene View Cam Rot X",
-                "value": 20.5
+                "key": "Scene View Cam Rot Y",
+                "value": -18762.5
             },
             {
                 "key": "Scene View Cam Pos Y",
-                "value": 13.683990478515625
+                "value": 23.01344871520996
+            },
+            {
+                "key": "Scene View Cam Rot X",
+                "value": 35.0
             },
             {
                 "key": "Scene View Cam Pos Z",
-                "value": -17.153244018554689
+                "value": -17.598114013671876
             },
             {
                 "key": "Scene View Cam Rot Z",

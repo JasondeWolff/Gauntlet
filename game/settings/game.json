@@ -5,12 +5,12 @@
         "value2": [],
         "value3": [
             {
-                "key": "Camera Input Dead Zone",
-                "value": 0.10000000149011612
-            },
-            {
                 "key": "Camera Look Speed",
                 "value": 0.5
+            },
+            {
+                "key": "Camera Input Dead Zone",
+                "value": 0.10000000149011612
             },
             {
                 "key": "Camera Move Speed",
