@@ -8,7 +8,3 @@ bool Application::Initialize()
 void Application::Shutdown()
 {
 }
-
-void Application::Reload()
-{
-}

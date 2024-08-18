@@ -1,3 +1,5 @@
+#include "[assets]/Shaders/Language.shader"
+
 #ifdef VERTEX
 layout (location = 0) in vec3 Position;
 layout (location = 1) in vec4 Color;
@@ -5,28 +7,27 @@ layout (location = 2) in vec3 Normal;
 layout (location = 3) in vec3 Tangent;
 layout (location = 4) in vec2 UV;
 
-layout (std140) uniform ConstantBuffer
+layout (BINDING(0, 0), std140) uniform ConstantBuffer
 {
     mat4 ViewMtx;
     mat4 ProjMtx;
     mat4 ViewProjMtx;
 };
 
-layout (std140) uniform ModelBuffer
+layout (BINDING(0, 1), std140) uniform ModelBuffer
 {
     mat4 WorldMtx;
     mat4 MeshMtx;
     ivec4 LightIndices;
 };
 
-out vec3 Frag_Position;
-out vec4 Frag_Color;
-out vec3 Frag_Normal;
-out vec3 Frag_Tangent;
-out vec2 Frag_UV;
-out vec3 Frag_View;
-
-flat out ivec4 Frag_LightIndices;
+layout (location = 0) out vec3 Frag_Position;
+layout (location = 1) out vec4 Frag_Color;
+layout (location = 2) out vec3 Frag_Normal;
+layout (location = 3) out vec3 Frag_Tangent;
+layout (location = 4) out vec2 Frag_UV;
+layout (location = 5) out vec3 Frag_View;
+layout (location = 6) flat out ivec4 Frag_LightIndices;
 
 void main()
 {
@@ -49,16 +50,15 @@ void main()
 #ifdef PIXEL
 layout (location = 0) out vec4 Out_Color;
 
-in vec3 Frag_Position;
-in vec4 Frag_Color;
-in vec3 Frag_Normal;
-in vec3 Frag_Tangent;
-in vec2 Frag_UV;
-in vec3 Frag_View;
+layout (location = 0) in vec3 Frag_Position;
+layout (location = 1) in vec4 Frag_Color;
+layout (location = 2) in vec3 Frag_Normal;
+layout (location = 3) in vec3 Frag_Tangent;
+layout (location = 4) in vec2 Frag_UV;
+layout (location = 5) in vec3 Frag_View;
+layout (location = 6) flat in ivec4 Frag_LightIndices;
 
-flat in ivec4 Frag_LightIndices;
-
-uniform sampler2D Albedo;
+layout (BINDING(1, 3)) uniform sampler2D Albedo;
 
 struct Light
 {
@@ -79,7 +79,7 @@ struct Light
 };
 
 #define NUM_LIGHTS 10
-layout (std140) uniform LightBuffer
+layout (BINDING(0, 4), std140) uniform LightBuffer
 {
     Light Lights[NUM_LIGHTS];
 };
