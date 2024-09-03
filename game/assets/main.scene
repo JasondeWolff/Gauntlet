@@ -2228,7 +2228,7 @@
                             "id": 2147483736,
                             "data": {
                                 "fov": 60.0,
-                                "aspect": 1.886051058769226,
+                                "aspect": 1.7777777910232545,
                                 "zNear": 0.009999999776482582,
                                 "zFar": 1000.0
                             }
@@ -2681,7 +2681,7 @@
                             "id": 2147483755,
                             "data": {
                                 "fov": 60.0,
-                                "aspect": 1.886051058769226,
+                                "aspect": 1.7777777910232545,
                                 "zNear": 0.009999999776482582,
                                 "zFar": 1000.0
                             }
@@ -5514,7 +5514,7 @@
                 ]
             },
             {
-                "name": "ShieldSquare",
+                "name": "Area Light",
                 "className": "DynamicObject",
                 "entity": {
                     "id": 7380093551915773418
@@ -5526,20 +5526,20 @@
                             "id": 2147483870,
                             "data": {
                                 "position": {
-                                    "x": 13.169974327087403,
-                                    "y": 3.9492757320404054,
-                                    "z": 5.1962199211120609
+                                    "x": 8.402900695800782,
+                                    "y": 8.02645492553711,
+                                    "z": -15.506220817565918
                                 },
                                 "rotation": {
-                                    "x": 0.33956095576286318,
-                                    "y": -0.6045234799385071,
-                                    "z": 0.31729093194007876,
-                                    "w": 0.6469746232032776
+                                    "x": 0.3395574688911438,
+                                    "y": -0.6045260429382324,
+                                    "z": 0.31728947162628176,
+                                    "w": 0.6469748020172119
                                 },
                                 "scale": {
                                     "x": 0.9999870657920837,
-                                    "y": 0.9999988675117493,
-                                    "z": 0.9999963045120239
+                                    "y": 0.9999985098838806,
+                                    "z": 0.9999951124191284
                                 }
                             }
                         }
@@ -13658,6 +13658,434 @@
                         "polymorphic_id": 6,
                         "ptr_wrapper": {
                             "id": 2147484197,
+                            "data": {}
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Area Light",
+                "className": "DynamicObject",
+                "entity": {
+                    "id": 7409700088966804388
+                },
+                "components": [
+                    {
+                        "polymorphic_id": 1,
+                        "ptr_wrapper": {
+                            "id": 2147484198,
+                            "data": {
+                                "position": {
+                                    "x": 11.989571571350098,
+                                    "y": 3.94915509223938,
+                                    "z": 5.080976963043213
+                                },
+                                "rotation": {
+                                    "x": 0.33956125378608706,
+                                    "y": -0.6045204997062683,
+                                    "z": 0.31728896498680117,
+                                    "w": 0.6469781994819641
+                                },
+                                "scale": {
+                                    "x": 0.9999867677688599,
+                                    "y": 0.9999991059303284,
+                                    "z": 0.9999960064888
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 2,
+                        "ptr_wrapper": {
+                            "id": 2147484199,
+                            "data": {
+                                "meshes": [
+                                    {
+                                        "storage": 1,
+                                        "filename": "[assets]/Models/Graphics_Showcase/Damaged_Helmet/DamagedHelmet_node_damagedHelmet_-6514_0.mesh"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 3,
+                        "ptr_wrapper": {
+                            "id": 2147484200,
+                            "data": {
+                                "materials": [
+                                    {
+                                        "storage": 1,
+                                        "filename": "[assets]/Models/Graphics_Showcase/Emissive_Plane/EmissivePlane_Emissive Plane_0.material"
+                                    }
+                                ],
+                                "shadowCastingMode": 1,
+                                "receiveShadows": true,
+                                "contributeGI": true,
+                                "receiveGI": true
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 7,
+                        "ptr_wrapper": {
+                            "id": 2147484201,
+                            "data": {
+                                "shape": {
+                                    "value0": 1
+                                },
+                                "center": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "size": {
+                                    "x": 0.4000000059604645,
+                                    "y": 0.6000000238418579,
+                                    "z": 0.10000000149011612
+                                },
+                                "radius": 1.0,
+                                "height": 1.0,
+                                "axis": {
+                                    "value0": 1
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "isConcave": false,
+                                "mesh": {
+                                    "storage": 0
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 10,
+                        "ptr_wrapper": {
+                            "id": 2147484202,
+                            "data": {}
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Area Light",
+                "className": "DynamicObject",
+                "entity": {
+                    "id": 7409700153138720829
+                },
+                "components": [
+                    {
+                        "polymorphic_id": 1,
+                        "ptr_wrapper": {
+                            "id": 2147484203,
+                            "data": {
+                                "position": {
+                                    "x": -17.91615867614746,
+                                    "y": 3.9493634700775148,
+                                    "z": 19.861202239990236
+                                },
+                                "rotation": {
+                                    "x": 0.4646492302417755,
+                                    "y": -0.016854356974363328,
+                                    "z": 0.008854534476995469,
+                                    "w": 0.8852900862693787
+                                },
+                                "scale": {
+                                    "x": 0.9999799132347107,
+                                    "y": 0.9999971389770508,
+                                    "z": 0.9999947547912598
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 2,
+                        "ptr_wrapper": {
+                            "id": 2147484204,
+                            "data": {
+                                "meshes": [
+                                    {
+                                        "storage": 1,
+                                        "filename": "[assets]/Models/Graphics_Showcase/Emissive_Plane/EmissivePlane_Plane_0.mesh"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 3,
+                        "ptr_wrapper": {
+                            "id": 2147484205,
+                            "data": {
+                                "materials": [
+                                    {
+                                        "storage": 1,
+                                        "filename": "[assets]/Models/Graphics_Showcase/Emissive_Plane/EmissivePlane_Emissive Plane_0.material"
+                                    }
+                                ],
+                                "shadowCastingMode": 1,
+                                "receiveShadows": true,
+                                "contributeGI": true,
+                                "receiveGI": true
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 7,
+                        "ptr_wrapper": {
+                            "id": 2147484206,
+                            "data": {
+                                "shape": {
+                                    "value0": 1
+                                },
+                                "center": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "size": {
+                                    "x": 0.4000000059604645,
+                                    "y": 0.6000000238418579,
+                                    "z": 0.10000000149011612
+                                },
+                                "radius": 1.0,
+                                "height": 1.0,
+                                "axis": {
+                                    "value0": 1
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "isConcave": false,
+                                "mesh": {
+                                    "storage": 0
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 10,
+                        "ptr_wrapper": {
+                            "id": 2147484207,
+                            "data": {}
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Area Light",
+                "className": "DynamicObject",
+                "entity": {
+                    "id": 7409700190062193577
+                },
+                "components": [
+                    {
+                        "polymorphic_id": 1,
+                        "ptr_wrapper": {
+                            "id": 2147484208,
+                            "data": {
+                                "position": {
+                                    "x": -2.7361321449279787,
+                                    "y": 3.949218511581421,
+                                    "z": 9.85280704498291
+                                },
+                                "rotation": {
+                                    "x": 0.0013918877812102438,
+                                    "y": -0.8854511380195618,
+                                    "z": 0.46472275257110598,
+                                    "w": 0.002671152586117387
+                                },
+                                "scale": {
+                                    "x": 0.9999858140945435,
+                                    "y": 0.9999980926513672,
+                                    "z": 0.9999940991401672
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 2,
+                        "ptr_wrapper": {
+                            "id": 2147484209,
+                            "data": {
+                                "meshes": [
+                                    {
+                                        "storage": 1,
+                                        "filename": "[assets]/Models/Graphics_Showcase/Emissive_Plane/EmissivePlane_Plane_0.mesh"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 3,
+                        "ptr_wrapper": {
+                            "id": 2147484210,
+                            "data": {
+                                "materials": [
+                                    {
+                                        "storage": 1,
+                                        "filename": "[assets]/Models/Graphics_Showcase/Emissive_Plane/EmissivePlane_Emissive Plane_0.material"
+                                    }
+                                ],
+                                "shadowCastingMode": 1,
+                                "receiveShadows": true,
+                                "contributeGI": true,
+                                "receiveGI": true
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 7,
+                        "ptr_wrapper": {
+                            "id": 2147484211,
+                            "data": {
+                                "shape": {
+                                    "value0": 1
+                                },
+                                "center": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "size": {
+                                    "x": 0.4000000059604645,
+                                    "y": 0.6000000238418579,
+                                    "z": 0.10000000149011612
+                                },
+                                "radius": 1.0,
+                                "height": 1.0,
+                                "axis": {
+                                    "value0": 1
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "isConcave": false,
+                                "mesh": {
+                                    "storage": 0
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 10,
+                        "ptr_wrapper": {
+                            "id": 2147484212,
+                            "data": {}
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Area Light",
+                "className": "DynamicObject",
+                "entity": {
+                    "id": 7409700356631080558
+                },
+                "components": [
+                    {
+                        "polymorphic_id": 1,
+                        "ptr_wrapper": {
+                            "id": 2147484213,
+                            "data": {
+                                "position": {
+                                    "x": -17.64166259765625,
+                                    "y": 3.949279546737671,
+                                    "z": 2.8591930866241457
+                                },
+                                "rotation": {
+                                    "x": 0.4646494388580322,
+                                    "y": -0.01685439981520176,
+                                    "z": 0.008854570798575879,
+                                    "w": 0.8852899670600891
+                                },
+                                "scale": {
+                                    "x": 0.9999851584434509,
+                                    "y": 0.9999977946281433,
+                                    "z": 0.9999949932098389
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 2,
+                        "ptr_wrapper": {
+                            "id": 2147484214,
+                            "data": {
+                                "meshes": [
+                                    {
+                                        "storage": 1,
+                                        "filename": "[assets]/Models/Graphics_Showcase/Emissive_Plane/EmissivePlane_Plane_0.mesh"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 3,
+                        "ptr_wrapper": {
+                            "id": 2147484215,
+                            "data": {
+                                "materials": [
+                                    {
+                                        "storage": 1,
+                                        "filename": "[assets]/Models/Graphics_Showcase/Emissive_Plane/EmissivePlane_Emissive Plane_0.material"
+                                    }
+                                ],
+                                "shadowCastingMode": 1,
+                                "receiveShadows": true,
+                                "contributeGI": true,
+                                "receiveGI": true
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 7,
+                        "ptr_wrapper": {
+                            "id": 2147484216,
+                            "data": {
+                                "shape": {
+                                    "value0": 1
+                                },
+                                "center": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "size": {
+                                    "x": 0.4000000059604645,
+                                    "y": 0.6000000238418579,
+                                    "z": 0.10000000149011612
+                                },
+                                "radius": 1.0,
+                                "height": 1.0,
+                                "axis": {
+                                    "value0": 1
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "isConcave": false,
+                                "mesh": {
+                                    "storage": 0
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "polymorphic_id": 10,
+                        "ptr_wrapper": {
+                            "id": 2147484217,
                             "data": {}
                         }
                     }

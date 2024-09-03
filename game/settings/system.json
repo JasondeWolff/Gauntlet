@@ -9,11 +9,11 @@
         "value1": [
             {
                 "key": "Width",
-                "value": 800
+                "value": 1920
             },
             {
                 "key": "Height",
-                "value": 600
+                "value": 1080
             }
         ],
         "value2": [],
