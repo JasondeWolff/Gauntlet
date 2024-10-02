@@ -2228,7 +2228,7 @@
                             "id": 2147483736,
                             "data": {
                                 "fov": 60.0,
-                                "aspect": 1.7777777910232545,
+                                "aspect": 1.9472616910934449,
                                 "zNear": 0.009999999776482582,
                                 "zFar": 1000.0
                             }
@@ -2681,7 +2681,7 @@
                             "id": 2147483755,
                             "data": {
                                 "fov": 60.0,
-                                "aspect": 1.7777777910232545,
+                                "aspect": 1.9472616910934449,
                                 "zNear": 0.009999999776482582,
                                 "zFar": 1000.0
                             }
@@ -13997,20 +13997,20 @@
                             "id": 2147484213,
                             "data": {
                                 "position": {
-                                    "x": -17.64166259765625,
-                                    "y": 3.949279546737671,
-                                    "z": 2.8591930866241457
+                                    "x": -16.815502166748048,
+                                    "y": 2.2429182529449465,
+                                    "z": 1.2374522686004639
                                 },
                                 "rotation": {
-                                    "x": 0.4646494388580322,
-                                    "y": -0.01685439981520176,
-                                    "z": 0.008854570798575879,
-                                    "w": 0.8852899670600891
+                                    "x": -9.099629778575036e-7,
+                                    "y": 1.0,
+                                    "z": -9.099629778575036e-7,
+                                    "w": -4.371055695173709e-8
                                 },
                                 "scale": {
-                                    "x": 0.9999851584434509,
-                                    "y": 0.9999977946281433,
-                                    "z": 0.9999949932098389
+                                    "x": 0.10000000149011612,
+                                    "y": 0.10000000149011612,
+                                    "z": 0.10000000149011612
                                 }
                             }
                         }
@@ -14023,7 +14023,7 @@
                                 "meshes": [
                                     {
                                         "storage": 1,
-                                        "filename": "[assets]/Models/Graphics_Showcase/Emissive_Plane/EmissivePlane_Plane_0.mesh"
+                                        "filename": "[assets]/Models/Graphics_Showcase/Canabis/Canabis_Sweep_0.mesh"
                                     }
                                 ]
                             }
@@ -14037,7 +14037,7 @@
                                 "materials": [
                                     {
                                         "storage": 1,
-                                        "filename": "[assets]/Models/Graphics_Showcase/Emissive_Plane/EmissivePlane_Emissive Plane_0.material"
+                                        "filename": "[assets]/Models/Graphics_Showcase/Canabis/Canabis_Mat.003_0.material"
                                     }
                                 ],
                                 "shadowCastingMode": 1,

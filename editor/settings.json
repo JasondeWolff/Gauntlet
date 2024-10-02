@@ -6,6 +6,10 @@
                 "value": true
             },
             {
+                "key": "Maximized",
+                "value": true
+            },
+            {
                 "key": "Toolbar Show Scene",
                 "value": true
             },
@@ -32,30 +36,43 @@
             {
                 "key": "Toolbar Theme",
                 "value": false
+            },
+            {
+                "key": "Fullscreen",
+                "value": false
             }
         ],
-        "value1": [],
+        "value1": [
+            {
+                "key": "Width",
+                "value": 800
+            },
+            {
+                "key": "Height",
+                "value": 600
+            }
+        ],
         "value2": [],
         "value3": [
             {
                 "key": "Scene View Cam Pos X",
-                "value": 15.968964576721192
+                "value": -15.52895736694336
             },
             {
                 "key": "Scene View Cam Rot Y",
-                "value": -18762.5
+                "value": -17804.0
             },
             {
                 "key": "Scene View Cam Pos Y",
-                "value": 23.01344871520996
+                "value": 5.716856479644775
             },
             {
                 "key": "Scene View Cam Rot X",
-                "value": 35.0
+                "value": 25.5
             },
             {
                 "key": "Scene View Cam Pos Z",
-                "value": -17.598114013671876
+                "value": 6.113358020782471
             },
             {
                 "key": "Scene View Cam Rot Z",
@@ -83,6 +100,10 @@
             {
                 "key": "Current Scene",
                 "value": "[assets]/main.scene"
+            },
+            {
+                "key": "Title",
+                "value": "BX Editor"
             }
         ]
     }
