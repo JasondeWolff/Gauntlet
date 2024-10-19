@@ -2228,7 +2228,7 @@
                             "id": 2147483736,
                             "data": {
                                 "fov": 60.0,
-                                "aspect": 1.9472616910934449,
+                                "aspect": 1.9393939971923829,
                                 "zNear": 0.009999999776482582,
                                 "zFar": 1000.0
                             }
@@ -2681,7 +2681,7 @@
                             "id": 2147483755,
                             "data": {
                                 "fov": 60.0,
-                                "aspect": 1.9472616910934449,
+                                "aspect": 1.9393939971923829,
                                 "zNear": 0.009999999776482582,
                                 "zFar": 1000.0
                             }
@@ -5526,20 +5526,20 @@
                             "id": 2147483870,
                             "data": {
                                 "position": {
-                                    "x": 8.61897087097168,
-                                    "y": 7.876970291137695,
-                                    "z": -15.520893096923829
+                                    "x": 8.438003540039063,
+                                    "y": 8.002116203308106,
+                                    "z": -15.508614540100098
                                 },
                                 "rotation": {
-                                    "x": 0.33955737948417666,
-                                    "y": -0.6045258641242981,
-                                    "z": 0.3172891438007355,
-                                    "w": 0.6469751596450806
+                                    "x": 0.33954933285713198,
+                                    "y": -0.6045280694961548,
+                                    "z": 0.3172807991504669,
+                                    "w": 0.646981418132782
                                 },
                                 "scale": {
-                                    "x": 0.999987006187439,
-                                    "y": 0.9999980926513672,
-                                    "z": 0.9999951124191284
+                                    "x": 0.9999871253967285,
+                                    "y": 0.9999968409538269,
+                                    "z": 0.9999934434890747
                                 }
                             }
                         }
@@ -10199,7 +10199,7 @@
                                 "materials": [
                                     {
                                         "storage": 1,
-                                        "filename": "[assets]/Models/Environment/floor_tile_large_0.material"
+                                        "filename": "[assets]/Models/Environment/floor_tile_large_rocks_0.material"
                                     }
                                 ],
                                 "shadowCastingMode": 1,
@@ -10299,7 +10299,7 @@
                                 "materials": [
                                     {
                                         "storage": 1,
-                                        "filename": "[assets]/Models/Environment/floor_tile_large_0.material"
+                                        "filename": "[assets]/Models/Environment/floor_tile_large_rocks_0.material"
                                     }
                                 ],
                                 "shadowCastingMode": 1,
@@ -10600,7 +10600,7 @@
                                 "materials": [
                                     {
                                         "storage": 1,
-                                        "filename": "[assets]/Models/Environment/floor_tile_large_0.material"
+                                        "filename": "[assets]/Models/Environment/floor_tile_large_rocks_0.material"
                                     }
                                 ],
                                 "shadowCastingMode": 1,
@@ -12990,7 +12990,7 @@
                                 "materials": [
                                     {
                                         "storage": 1,
-                                        "filename": "[assets]/Models/Skeletons/Skeleton_Mage/Skeleton_Mage_0.material"
+                                        "filename": "[assets]/Models/Graphics_Showcase/Emissive_Plane/EmissivePlane_Emissive Plane_0.material"
                                     }
                                 ],
                                 "shadowCastingMode": 1,
@@ -13376,9 +13376,9 @@
                             "id": 2147484186,
                             "data": {
                                 "position": {
-                                    "x": -17.27128028869629,
-                                    "y": 1.3140116930007935,
-                                    "z": 14.50650405883789
+                                    "x": -18.50777244567871,
+                                    "y": 1.314011573791504,
+                                    "z": 13.129522323608399
                                 },
                                 "rotation": {
                                     "x": -4.0952843960440079e-7,

@@ -12,6 +12,19 @@
                     "filename": "[assets]/Models/Environment/Textures/dungeon_texture.texture"
                 }
             }
-        ]
+        ],
+        "isEmissive": false,
+        "isMirror": false,
+        "baseColorFactor": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+        },
+        "emissiveFactor": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        }
     }
 }

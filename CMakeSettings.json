@@ -36,6 +36,11 @@
           "name": "BX_BUILD_EDITOR",
           "value": "True",
           "type": "BOOL"
+        },
+        {
+          "name": "BX_GRAPHICS_BACKEND",
+          "value": "Vulkan",
+          "type": "STRING"
         }
       ]
     },
@@ -54,6 +59,11 @@
           "name": "BX_BUILD_EDITOR",
           "value": "True",
           "type": "BOOL"
+        },
+        {
+          "name": "BX_GRAPHICS_BACKEND",
+          "value": "Vulkan",
+          "type": "STRING"
         }
       ]
     },
@@ -72,6 +82,11 @@
           "name": "BX_INSTALL",
           "value": "True",
           "type": "BOOL"
+        },
+        {
+          "name": "BX_GRAPHICS_BACKEND",
+          "value": "Vulkan",
+          "type": "STRING"
         }
       ]
     }
